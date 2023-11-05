@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+header{
+    background-color: black;
+    color: white;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-family: 'Passion One', sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-weight: bolder;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: 'Sriracha', cursive;
+    font-size: 5vw;
+}
+.normal{
+    background-color: white;
+}
+
+.imagem{
+    padding-bottom: 60px;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#img1{
+    background-image: url(imagens/background001.jpg);
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin-top: 150px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
